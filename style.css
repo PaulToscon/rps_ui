@@ -103,10 +103,6 @@ body{
     padding: 1rem ;
   }
 
-
-
-
-
   .selection{
     background-color: #fff;
     display: flex;
@@ -138,3 +134,9 @@ body{
     justify-content: space-evenly;
     height: 100%;
   }
+
+  .counter{
+    color: #fff;
+  }
+
+  
