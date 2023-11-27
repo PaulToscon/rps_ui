@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Montserrat:wght@300;500;600&display=swap');
+
+
+body{
+    background-image: url(img/low-poly-grid-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+  .glass_card{
+    display: flex;
+    flex-direction: column;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 15px;
+  background-color: rgba(249, 240, 250, 0.199);
+  
+  backdrop-filter: blur(15px);
+  }
+
+  .title{
+    text-align: center;
+    font-family: barlow condensed , sans-serif; 
+    font-weight: regular;
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 15px 15px 0 0;
+  }
+
+  .wrapper-display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgba(236, 1, 1, 0.651);
+    backdrop-filter: blur(15px);
+    border-radius: 0 0 15px 15px;
+    padding: 2rem;
+
+  }
+
+  .player-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    width: 40%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 15px;
+    padding: 1rem;
+  }
+
+
+  .selection-image{
+    display: flex;
+    height: 50px;
+    width: 50px;
+  }
+
+  .choice-bar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: flex-start;
+    gap: 3rem;
+    padding: 3rem 0 3rem 0;
+    width: 100%;
+    
+  }
+
+  .match-results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .counter-wrapper{
+    display: flex;
+    padding: 2rem ;
+    font-size: 3rem;
+  }
+
+  .pfp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100px;
+    padding: 1rem ;
+  }
+
+
+
+
+
+  .selection{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid rgb(75, 9, 9);
+    box-shadow: 9px 7px 10px rgb(75, 9, 9);
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+  }
+
+  .chosen-wrapper{
+    display: flex;
+    flex-direction: column;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    width: 60%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 15px;
+    padding: 1rem;
+  }
+
+  .chosen{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+  }

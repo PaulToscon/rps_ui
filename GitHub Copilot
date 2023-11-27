@@ -1,0 +1,26 @@
+Synthesizing 10/10 solutions (Duplicates hidden)
+
+=======
+Suggestion 1
+
+    height: 100px;
+    background-image: url(img/rock.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+  }
+
+=======
+Suggestion 2
+
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-image: url(img/rock.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+  }
